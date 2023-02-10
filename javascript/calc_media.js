@@ -1,16 +1,13 @@
-var valorEmDolar = 30;
-var cotacaoDoDolar = 5.32;
-
-var valorEmReal = valorEmDolar * cotacaoDoDolar;
-
-valorEmReal = valorEmReal.toFixed(2);
-
-alert("R$" + valorEmReal);
-
-var quilometroEmAnoLuz = 1.057 * 10 ** -13;
-
-var distanciaEmQuilometro = 45.3;
-
-var anosLuz = quilometroEmAnoLuz * distanciaEmQuilometro;
-
-alert("Olá, a distancia em Anos Luz é:" + anosLuz);
+//alert("Viva Chê");
+var valor_em_dolar = 30;
+var cotação_dolar = 5.32;
+var valor_em_real = valor_em_dolar * cotação_dolar;
+var quilometro_ano_luz = 1.057 * 10 ** -13;
+var distancia_km = 225 * 10 ** 7;
+valor_em_real = valor_em_real.toFixed(2);
+var valor_em_anos_luz = distancia_km * quilometro_ano_luz;
+var velocidade_fogete = 28440;
+var fogete_anos_luz = velocidade_fogete * valor_em_anos_luz;
+alert("R$: " + valor_em_real);
+alert(valor_em_anos_luz);
+alert("Para ir da terra a Marte levaria : " + fogete_anos_luz + " anos luz");

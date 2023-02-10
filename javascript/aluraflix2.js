@@ -1,6 +1,7 @@
 function adicionarFilme() {
-    var filmeFavorito = document.getElementById('filme').value
-    var elementoListaFilmes = document.getElementById('listaFilmes')
-    elementoListaFilmes.innerHTML = elementoListaFilmes.innerHTML + '<img src=' + filmeFavorito + '>'
-    document.getElementById('filme').value = ""
-  }
+  var filme_favorito = document.getElementById("filme").value;
+  var elemento_lista_filme = document.getElementById("listaFilmes");
+  elemento_lista_filme.innerHTML += "<img src=" + filme_favorito + ">";
+  document.getElementById("filme").value = "";
+  //document.write("<img src=" + filme_favorito + ">");
+}
